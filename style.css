@@ -45,3 +45,16 @@ input {
 input:focus {
   outline: none;
 }
+
+@media (max-width: 1000px) {
+  .banner h1 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+}
